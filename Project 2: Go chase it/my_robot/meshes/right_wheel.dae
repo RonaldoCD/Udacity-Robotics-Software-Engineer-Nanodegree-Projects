@@ -5,8 +5,8 @@
       <author>Blender User</author>
       <authoring_tool>Blender 3.4.0 commit date:2022-12-06, commit time:18:46, hash:a95bf1ac01be</authoring_tool>
     </contributor>
-    <created>2023-01-05T20:44:43</created>
-    <modified>2023-01-05T20:44:43</modified>
+    <created>2023-01-09T00:12:00</created>
+    <modified>2023-01-09T00:12:00</modified>
     <unit name="meter" meter="1"/>
     <up_axis>Z_UP</up_axis>
   </asset>
@@ -113,7 +113,7 @@
   <library_visual_scenes>
     <visual_scene id="Scene" name="Scene">
       <node id="rueda_derecha" name="rueda derecha" type="NODE">
-        <matrix sid="transform">1 0 0 0 0 1 0 0 0 0 1 0 0 0 0 1</matrix>
+        <matrix sid="transform">1 0 0 0.17 0 1 0 0.1325 0 0 1 -0.055 0 0 0 1</matrix>
         <instance_geometry url="#rueda_derecha-mesh" name="rueda derecha"/>
       </node>
       <node id="Camera" name="Camera" type="NODE">

@@ -31,7 +31,7 @@ std::vector<float> get_robot_vel(uint left_side_limit, uint right_side_limit, in
     velocities.push_back(0.0);
     std::cout << "---------------" << "\n";
     std::cout << "Velocities start: (" << velocities[0] << "," << velocities[1] << ")\n"; 
-    float ang_z = 0.4; // change value to change angular_z
+    float ang_z = 0.6; // change value to change angular_z
     float lin_x = 0.4; // change value to change linear_x
 
     if (col <= left_side_limit){

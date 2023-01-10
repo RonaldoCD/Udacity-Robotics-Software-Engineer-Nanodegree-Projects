@@ -2,6 +2,7 @@
 <launch>
 
   <!-- send urdf to param server -->
+  <!-- change file name to: my_robot_improved.xacro -->
   <param name="robot_description" command="$(find xacro)/xacro --inorder '$(find my_robot)/urdf/my_robot.xacro'" />
   
    <!-- Send fake joint values-->

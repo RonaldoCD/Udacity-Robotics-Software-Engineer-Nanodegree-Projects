@@ -15,7 +15,7 @@ This repository consists of projects required for the graduation of the
   <tr>
     <th><p>
            <a href="https://github.com/huuanhhuynguyen/RoboND-Build-My-World/blob/master/image.png">
-           <img src="Project 1: Build my world/images/Screenshot from 2023-02-03 21-50-23.png"
+           <img src="https://github.com/RonaldoCD/Udacity-Robotics-Software-Engineer-Nanodegree-Projects/blob/main/Project%201:%20Build%20my%20world/images/Screenshot%20from%202023-02-03%2021-50-23.png"
             alt="Build my world" width="250" height="140"></a>
            <br>Build My World
            <br><a href="https://github.com/huuanhhuynguyen/RoboND-Build-My-World/">(code)</a>

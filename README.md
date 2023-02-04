@@ -1,7 +1,6 @@
 # Robotics Software Engineer Nanodegree
 
-This repository consists of projects required for the graduation of the
-[Udacity Robotics Software Engineer Nanodegree Program](https://www.udacity.com/course/robotics-software-engineer--nd209).
+The projects found in this repository are necessary for graduation of the [Udacity Robotics Software Engineer Nanodegree Program](https://www.udacity.com/course/robotics-software-engineer--nd209).
 
 ## Progress (Third project finished)
 * Project 1: [Build My World](https://github.com/RonaldoCD/Udacity-Robotics-Software-Engineer-Nanodegree-Projects/tree/main/Project%201:%20Build%20my%20world)

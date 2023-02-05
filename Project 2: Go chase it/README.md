@@ -6,6 +6,7 @@ This project consists in designing and building a mobile robot and house it in t
 
 ## Project structure
 
+```
 .Project2                          # Go Chase It Project
     ├── my_robot                       # my_robot package                   
     │   ├── launch                     # launch folder for launch files   
@@ -31,6 +32,7 @@ This project consists in designing and building a mobile robot and house it in t
     │   ├── CMakeLists.txt             # compiler instructions
     │   ├── package.xml                # package info                  
     └──             
+```
 
 ## Build and Launch
 

@@ -7,7 +7,7 @@ This project consists in designing a Gazebo World environment by including multi
         <th><p>
             <a href="https://github.com/RonaldoCD/Udacity-Robotics-Software-Engineer-Nanodegree-Projects/blob/main/Project%201:%20Build%20my%20world/images/Screenshot%20from%202023-02-03%2021-50-23.png">
             <img src="https://github.com/RonaldoCD/Udacity-Robotics-Software-Engineer-Nanodegree-Projects/blob/main/Project%201:%20Build%20my%20world/images/Screenshot%20from%202023-02-03%2021-50-23.png"
-                ></a>
+            alt="Build my world" width="500" height="500"    ></a>
         </p>
         </th>
     </tr>
@@ -15,13 +15,13 @@ This project consists in designing a Gazebo World environment by including multi
         <th><p>
             <a href="https://github.com/RonaldoCD/Udacity-Robotics-Software-Engineer-Nanodegree-Projects/blob/main/Project%201:%20Build%20my%20world/images/Screenshot%20from%202023-02-03%2021-46-13.png">
             <img src="https://github.com/RonaldoCD/Udacity-Robotics-Software-Engineer-Nanodegree-Projects/blob/main/Project%201:%20Build%20my%20world/images/Screenshot%20from%202023-02-03%2021-46-13.png"
-            ></a>
+            alt="Build my world" width="250" height="250"></a>
         </p>
         </th>
         <th><p>
             <a href="https://github.com/RonaldoCD/Udacity-Robotics-Software-Engineer-Nanodegree-Projects/blob/main/Project%201:%20Build%20my%20world/images/Screenshot%20from%202023-02-03%2021-46-55.png">
             <img src="https://github.com/RonaldoCD/Udacity-Robotics-Software-Engineer-Nanodegree-Projects/blob/main/Project%201:%20Build%20my%20world/images/Screenshot%20from%202023-02-03%2021-46-55.png"
-            ></a>
+            alt="Build my world" width="250" height="250"></a>
         </p>
         </th>
     </tr>

@@ -34,6 +34,6 @@
   
   <!--launch rviz-->
   <node name="rviz" pkg="rviz" type="rviz" respawn="false"
-    args="-d /home/workspace/catkin_ws/src/my_robot/launch/amcl.rviz"/>
+    args="-d /home/workspace/catkin_ws/src/my_robot/launch/amcl2.rviz"/>
   
 </launch>

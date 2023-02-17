@@ -16,7 +16,7 @@
     <pose>0 0 0.1 0 0 0</pose>
 
     <inertial>
-      <mass value="15.0"/>
+      <mass value="6.0"/>
       <origin xyz="0.0 0 0" rpy=" 0 0 0"/>
       <inertia
           ixx="0.1" ixy="0" ixz="0"
@@ -74,7 +74,7 @@
     <pose>0 0 0 0 0 0</pose>
 
     <inertial>
-      <mass value="2.0"/>
+      <mass value="1"/>
       <origin xyz="0.0 0.0 0.0" rpy="0 1.5707 1.5707"/>
       <inertia
           ixx="0.1" ixy="0" ixz="0"
@@ -103,7 +103,7 @@
     <pose>0 0 0 0 0 0</pose>
 
     <inertial>
-      <mass value="2.0"/>
+      <mass value="1"/>
       <origin xyz="0.0 0.0 0.0" rpy="0 1.5707 1.5707"/>
       <inertia
           ixx="0.1" ixy="0" ixz="0"
@@ -220,6 +220,20 @@
     <child link="camera_link_optical"/>
   </joint>
 
+  <gazebo reference="left_wheel">
+    <material>Gazebo/Black</material>
+  </gazebo>
+
+  <gazebo reference="right_wheel">
+    <material>Gazebo/Black</material>
+  </gazebo>
+
+  <gazebo reference="chassis">
+    <material>Gazebo/Red</material>
+  </gazebo>
   
+  <gazebo reference="camera">
+    <material>Gazebo/Blue</material>
+  </gazebo>
 
 </robot>

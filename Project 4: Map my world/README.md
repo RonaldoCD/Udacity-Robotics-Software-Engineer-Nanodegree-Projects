@@ -25,50 +25,37 @@ RTAB-Map (Real-Time Appearance-Based Mapping) is a popular solution for SLAM to 
 
 ## Build and Launch
 
-1. Clone project and initialize a catkin workspace
-```
-$ mkdir catkin_ws && cd catkin_ws
-$ git clone https://github.com/huuanhhuynguyen/RoboND-Map-My-World.git
-$ mv RoboND-Map-My-World src
-$ cd src && catkin_init_workspace
-```
-
-2. Within the `catkin_ws/src` folder, clone the `teleop` project
-```
-$ git clone https://github.com/ros-teleop/teleop_twist_keyboard
-```
-
-3. Move back to `catkin_ws\` and build
+1. Move back to `catkin_ws\` and build
 ```
 $ cd ..
 $ catkin_make
 ```
 
-4. Launch the world and robot
+2. Launch the world and robot
 ```
 $ source devel/setup.bash
 $ roslaunch my_robot world.launch
 ```
 
-5. Open another terminal (Ctrl+Shift+T), and launch the `mapping.launch` file. 
+3. Open another terminal (Ctrl+Shift+T), and launch the `mapping.launch` file. 
 Here, the rtabmap-ros package will be launched.
 ```
 $ source devel/setup.bash
 $ roslaunch my_robot mapping.launch
 ```
 
-6. Open another terminal, and run the `teleop` node.
+4. Open another terminal, and run the `teleop` node.
 ```
 $ source devel/setup.bash
 $ rosrun teleop_twist_keyboard teleop_twist_keyboard.py
 ```
 
-7. Click on this terminal, type keyboard to navigate the robot around. Navigate 
+5. Click on this terminal, type keyboard to navigate the robot around. Navigate 
 the robot to scan its surrounding environment. The rtabmap-ros package will save
 the resulted map with the localized trajectory of the robot in a database file 
 `~/.ros/rtabmap.db`.
 
-8. Open another terminal, and open up the database file using `rtabmap-databaseViewer`
+6. Open another terminal, and open up the database file using `rtabmap-databaseViewer`
 ```
 $ rtabmap-databaseViewer ~/.ros/rtabmap.db
 ```

@@ -7,4 +7,4 @@ RTAB-Map (Real-Time Appearance-Based Mapping) is a popular solution for SLAM to 
 <!-- <p align="center">
   <img src="https://github.com/RonaldoCD/Udacity-Robotics-Software-Engineer-Nanodegree-Projects/blob/main/Project%204:%20Map%20my%20world/my_robot/images/2D_map_env.png" width="350" title="2D Map">
 </p> -->
-![Alt text](/my_robot/images/2D_map_env.png "2D Map")
+![Alt text](ttps://github.com/RonaldoCD/Udacity-Robotics-Software-Engineer-Nanodegree-Projects/blob/main/Project%204:%20Map%20my%20world/my_robot/images/2D_map_env.png "2D Map")

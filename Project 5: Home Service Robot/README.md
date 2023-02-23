@@ -1,5 +1,11 @@
 # Project 5: Home Service Robot
 
+
+
+https://user-images.githubusercontent.com/73918490/221043934-f3ae9d96-663f-47de-9ada-08400546fa7a.mp4
+
+
+
 In this project the robot will move to the pick-up and drop-off points of the Gazebo world. To localize itself in the environment, the robot will use the Adaptive Monte Carlo Localization algorithm (AMCL) using odometry and laser data. To do mapping the robot applies the SLAM (Simultaneous Localization and Mapping) algorithm that in our case uses data from the RGB-D camera installed in the robot. Finally, to navigate in the environment the robot uses the Dijkstra's algorithm, which is a variant from the Uniform Cost Search algorithm. 
 
 Inside the amcl_demo.lanch file the nodes that implement localization, mapping and navigation are launched from the turtlebot_navigation package. Also, a map of the environment is provided in this file.

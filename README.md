@@ -7,7 +7,7 @@ The projects found in this repository are necessary for graduation of the [Udaci
 * Project 2: [Go Chase It](https://github.com/RonaldoCD/Udacity-Robotics-Software-Engineer-Nanodegree-Projects/tree/main/Project%202:%20Go%20chase%20it)
 * Project 3: [Where Am I](https://github.com/RonaldoCD/Udacity-Robotics-Software-Engineer-Nanodegree-Projects/tree/main/Project%203:%20Where%20am%20I)
 * Project 4: [Map My World](https://github.com/RonaldoCD/Udacity-Robotics-Software-Engineer-Nanodegree-Projects/tree/main/Project%204:%20Map%20my%20world)
-* Project 5: Home Service Robot
+* Project 5: [Home Service Robot](https://github.com/RonaldoCD/Udacity-Robotics-Software-Engineer-Nanodegree-Projects/tree/main/Project%205:%20Home%20Service%20Robot)
 
 ## Projects
 <table style="width:100%">

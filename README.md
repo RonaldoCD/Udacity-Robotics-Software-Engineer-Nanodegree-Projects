@@ -13,7 +13,7 @@ The projects found in this repository are necessary for graduation of the [Udaci
 <table style="width:100%">
   <tr>
     <th><p>
-           <a href="https://github.com/RonaldoCD/Udacity-Robotics-Software-Engineer-Nanodegree-Projects/blob/main/Project%201:%20Build%20my%20world/images/Screenshot%20from%202023-02-03%2021-50-23.png">
+           <a href="https://github.com/RonaldoCD/Udacity-Robotics-Software-Engineer-Nanodegree-Projects/tree/main/Project%201:%20Build%20my%20world">
            <img src="https://github.com/RonaldoCD/Udacity-Robotics-Software-Engineer-Nanodegree-Projects/blob/main/Project%201:%20Build%20my%20world/images/Screenshot%20from%202023-02-03%2021-50-23.png"
             alt="Build my world" width="250" height="140"></a>
            <br>Build My World
@@ -21,7 +21,7 @@ The projects found in this repository are necessary for graduation of the [Udaci
       </p>
     </th>
     <th><p>
-           <a href="hhttps://github.com/RonaldoCD/Udacity-Robotics-Software-Engineer-Nanodegree-Projects/blob/main/Project%202:%20Go%20chase%20it/images/go_chase_it_image.png">
+           <a href="https://github.com/RonaldoCD/Udacity-Robotics-Software-Engineer-Nanodegree-Projects/tree/main/Project%202:%20Go%20chase%20it">
            <img src="https://github.com/RonaldoCD/Udacity-Robotics-Software-Engineer-Nanodegree-Projects/blob/main/Project%202:%20Go%20chase%20it/images/go_chase_it_image.png"
             alt="Go chase it" width="250" height="140"></a>
            <br>Go Chase It
@@ -29,7 +29,7 @@ The projects found in this repository are necessary for graduation of the [Udaci
         </p>
     </th>
     <th><p>
-           <a href="https://github.com/RonaldoCD/Udacity-Robotics-Software-Engineer-Nanodegree-Projects/blob/main/Project%203:%20Where%20am%20I/images/Localized%201.png">
+           <a href="https://github.com/RonaldoCD/Udacity-Robotics-Software-Engineer-Nanodegree-Projects/tree/main/Project%203:%20Where%20am%20I">
            <img src="https://github.com/RonaldoCD/Udacity-Robotics-Software-Engineer-Nanodegree-Projects/blob/main/Project%203:%20Where%20am%20I/images/Localized%201.png"
             alt="Where am I" width="250" height="140"></a>
            <br>Where Am I
@@ -40,7 +40,7 @@ The projects found in this repository are necessary for graduation of the [Udaci
 
   <tr>
     <th><p>
-           <a href="https://github.com/RonaldoCD/Udacity-Robotics-Software-Engineer-Nanodegree-Projects/blob/main/Project%204:%20Map%20my%20world/my_robot/images/2d_map2.png">
+           <a href="https://github.com/RonaldoCD/Udacity-Robotics-Software-Engineer-Nanodegree-Projects/tree/main/Project%204:%20Map%20my%20world">
            <img src="https://github.com/RonaldoCD/Udacity-Robotics-Software-Engineer-Nanodegree-Projects/blob/main/Project%204:%20Map%20my%20world/my_robot/images/2d_map2.png"
             alt="Map My World" width="250" height="140"></a>
            <br>Map My World
@@ -48,7 +48,7 @@ The projects found in this repository are necessary for graduation of the [Udaci
       </p>
     </th>
     <th><p>
-           <a href="https://github.com/RonaldoCD/Udacity-Robotics-Software-Engineer-Nanodegree-Projects/blob/main/Project%205:%20Home%20Service%20Robot/images/path_planning.png">
+           <a href="https://github.com/RonaldoCD/Udacity-Robotics-Software-Engineer-Nanodegree-Projects/tree/main/Project%205:%20Home%20Service%20Robot">
            <img src="https://github.com/RonaldoCD/Udacity-Robotics-Software-Engineer-Nanodegree-Projects/blob/main/Project%205:%20Home%20Service%20Robot/images/path_planning.png"
             alt="Home Service Robot" width="250" height="140"></a>
            <br>Home Service Robot

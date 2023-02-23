@@ -1,0 +1,6 @@
+pick_up_point_x: -4.0
+pick_up_point_y: 2.0
+pick_up_orientation_w: 1.0
+drop_off_point_x: 4.0
+drop_off_point_y: -4.0
+drop_off_orientation_w: 1.0

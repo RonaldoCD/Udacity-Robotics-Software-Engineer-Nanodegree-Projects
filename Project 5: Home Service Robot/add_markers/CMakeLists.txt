@@ -10,6 +10,7 @@ add_compile_options(-std=c++11)
 find_package(catkin REQUIRED COMPONENTS
   roscpp
   visualization_msgs
+  pick_objects
 )
 
 ## System dependencies are found with CMake's conventions
@@ -205,3 +206,6 @@ include_directories(
 # catkin_add_nosetests(test)
 add_executable(add_markers src/add_markers.cpp)
 target_link_libraries(add_markers ${catkin_LIBRARIES})
+
+add_executable(add_markers_by_time src/add_markers_by_time.cpp)
+target_link_libraries(add_markers_by_time ${catkin_LIBRARIES})

@@ -1,16 +1,35 @@
 #include <ros/ros.h>
 #include <visualization_msgs/Marker.h>
 
+void set_marker_coordinates(visualization_msgs::Marker & marker, double point_x, double point_y, double orientation_w){
+	marker.pose.position.x = point_x;
+    marker.pose.position.y = point_y;
+    marker.pose.orientation.w = orientation_w;
+}
+
 int main( int argc, char** argv )
 {
 	ros::init(argc, argv, "add_markers");
 	ros::NodeHandle nh;
-	ros::Rate r(1);
+    ros::Rate r(1);
 	ros::Publisher marker_pub = nh.advertise<visualization_msgs::Marker>("visualization_marker", 1);
 
+    double pick_up_point_x, pick_up_point_y, pick_up_orientation_w;
+	double drop_off_point_x, drop_off_point_y, drop_off_orientation_w;  
+	nh.getParam("/add_markers/pick_up_point_x", pick_up_point_x);
+	nh.getParam("/add_markers/pick_up_point_y", pick_up_point_y);
+	nh.getParam("/add_markers/pick_up_orientation_w", pick_up_orientation_w);
+	nh.getParam("/add_markers/drop_off_point_x", drop_off_point_x);
+	nh.getParam("/add_markers/drop_off_point_y", drop_off_point_y);
+	nh.getParam("/add_markers/drop_off_orientation_w", drop_off_orientation_w);
+    
     bool robot_at_pickup_point = false;
 	bool robot_at_dropoff_point = false;
     bool robot_picked_object = false;
+
+    ROS_INFO("%f", pick_up_point_x);
+    ROS_INFO("%f", pick_up_point_y);
+    ROS_INFO("%f", pick_up_orientation_w);
 
 	// Set shape type to be a cube
 	visualization_msgs::Marker marker;
@@ -23,19 +42,17 @@ int main( int argc, char** argv )
 	marker.id = 0;
 
 	// Set the pose of the marker.  This is a full 6DOF pose relative to the frame/time specified in the header
-	marker.pose.position.x = -4.0;
-	marker.pose.position.y = 2.0;
-	marker.pose.orientation.w = 1.0;
+	set_marker_coordinates(marker, pick_up_point_x, pick_up_point_y, pick_up_orientation_w);
 
 	// Set the scale of the marker -- 1x1x1 here means 1m on a side
-	marker.scale.x = 0.3;
-	marker.scale.y = 0.3;
+	marker.scale.x = 0.4;
+	marker.scale.y = 0.4;
 	marker.scale.z = 0.2;
 
 	// Set the color -- be sure to set alpha to something non-zero!
-	marker.color.r = 1.0f;
+	marker.color.r = 0.0f;
 	marker.color.g = 0.0f;
-	marker.color.b = 0.0f;
+	marker.color.b = 1.0f;
 	marker.color.a = 1.0;
 
 	while (ros::ok())
@@ -86,16 +103,12 @@ int main( int argc, char** argv )
         }
 
         marker.action = visualization_msgs::Marker::ADD;
-        marker.pose.position.x = 3.0;
-        marker.pose.position.y = -1.0;
-        marker.pose.orientation.w = 1.0;
+        set_marker_coordinates(marker, drop_off_point_x, drop_off_point_y, drop_off_orientation_w);
 
         ROS_INFO("Publishing drop-off marker");
 
 		marker_pub.publish(marker);
-
-        
-        // ros::Duration(5).sleep();
+        ros::Duration(5).sleep();
 
         return 0;
 
